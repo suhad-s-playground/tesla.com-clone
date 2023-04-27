@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+}
+html,image{
+    scroll-snap-type: y mandatory;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------Uda Thiruwa--------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+#top-section{
+ background-color: white;
+ height: 52px ;
+ position: fixed;
+ left: 0;
+ right: 0;
+ 
+}
+
+#top-section-discount{
+    position: relative;
+    /* background-color: aqua; */
+    text-align: center;
+    height: fit-content;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #393C41;
+    font-size: 14px;
+   
+}
+#top-section-discount a{
+    color: #393C41;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------Header--------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+header{
+    position:fixed;
+    /* background-color: burlywood; */
+    top: 52px;
+    bottom: calc(52px+56px);
+    height: 56px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+#logo{
+    margin-left: 32px;
+    padding: left 32px; 
+    align-self:center;
+}
+#logo svg{
+    padding: left 32px; 
+    width: 120px;
+    height: 24x; 
+   
+}
+#products{
+  align-self:center;
+  font-size: 14px;
+  
+    
+}
+#products>span{
+    padding: 10px;
+    
+}
+#products a,#corner-icons a{
+    text-decoration: none;
+    color: #171A20;
+    font-weight: 500;
+}
+
+    
+
+#corner-icons{
+    margin-right: 32px;
+    align-self:center;
+    font-size: 14px;
+}
+#corner-icons>span{
+    padding: 5px;
+
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------body eke scroll snapping divs--------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+#image>div{
+    height: 100vh;
+    /* background-color: aqua; */
+    background-position: center;
+    background-size: cover;
+    scroll-snap-align: center;
+}
+#image>:first-child{
+    background-image: url(/img/1.jpeg);
+    z-index: -1;
+}
+#image>:nth-child(2){
+    background-image: url(/img/2.jpeg);
+}
+#image>:nth-child(3){
+    background-image: url(/img/3.jpeg);
+}
+
+#image>:nth-child(4){
+    background-image: url(/img/4.jpeg);
+}
+#image>:nth-child(5){
+    background-image: url(/img/5.jpeg);
+}
+#image>:nth-child(6){
+    background-image: url(/img/6.webp);
+}
+#image>:last-child{
+    background-image: url(/img/7.jpeg);
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------Main eka --------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+.model h1{
+    position: absolute;
+    margin: 173.4px 0px 0px 0px;
+    padding: 0 24px;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.model p{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    /* background-color: yellow; */
+    margin: 221.4px 0px 0px 0px;
+
+}
+.model>div{
+    position: relative;
+    height: 40px;
+    /* background-color: aqua; */
+    width: 100%;
+    bottom: -90%;
+
+
+
+    
+    
+}
+.bottom-icons{
+    height: 40px;
+    width: 552px;
+    /* background-color: chartreuse; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.bottom-icons>div{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.bottom-icons div a{
+    position: relative;
+    /* border: 1px solid black; */
+    width: 264px;
+    padding-top:12px ;
+    padding-bottom:12px ;
+    text-decoration: none;
+    
+}
+.bottom-icons div>a:first-child{
+   background-color:#171A20CC ;
+   color: white;
+   font-weight: 500;
+   border-radius: 5px;
+  
+}
+.bottom-icons div>a:last-child{
+    background-color:#F4F4F4A6;
+    color: #393C41;
+    font-weight: 500;
+    border-radius: 5px;  
+ }
+ .bottom-icons-last{
+    height: 40px;
+    width: 552px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .bottom-icons-last>div>a{
+    text-decoration: none;
+    background-color:#171A20CC ;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 12px 200px 12px 200px;
+    opacity: 0.9s;
+ }
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------Top Icon Fading --------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+header span{
+    /* border: 1px solid #393C41 ; */
+    border-radius: 5px;
+
+}
+header span:hover{
+    background-color: #ccd4e4;
+    opacity: 0.9;
+    color: #171A20;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------Arrow--------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
